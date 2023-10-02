@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--    Custom Colors-->
+    <color name="color_action_bar">#A81104</color>
+    <color name="color_status_bar">#680900</color>
+
+</resources>

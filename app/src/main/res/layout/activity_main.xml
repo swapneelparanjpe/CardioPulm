@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/clMainLayout">
+
+    <LinearLayout
+        android:id="@+id/llMainWindow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:padding="64dp">
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/pvCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnMeasureHeartRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_measure_heart_rate"
+            android:textAllCaps="false"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnMeasureRespiratoryRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_measure_respiratory_rate"
+            android:textAllCaps="false"
+            android:enabled="false"
+            android:layout_marginBottom="32dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

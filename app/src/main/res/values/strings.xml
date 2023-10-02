@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CardioPulm</string>
+    <string name="btn_measure_heart_rate">Measure Heart Rate</string>
+    <string name="btn_measure_respiratory_rate">Measure Respiratory Rate</string>
+    <string name="starting_recording_in">Starting Recording in…</string>
+    <string name="seconds_left"> seconds left…</string>
+
+    <string-array name="symptoms_options">
+        <item>Nausea</item>
+        <item>Headache</item>
+        <item>Diarrhoea</item>
+        <item>Soar Throat</item>
+        <item>Fever</item>
+        <item>Muscle Ache</item>
+        <item>Loss of Smell or Taste</item>
+        <item>Cough</item>
+        <item>Shortness of Breath</item>
+        <item>Feeling Tired</item>
+    </string-array>
+
+</resources>
